@@ -4,4 +4,4 @@ U科2年web前期課題のテンプレート。
 
 # プレビュー
 
-https://kawashi.github.io/web-homework1/
+https://kawashi.github.io/web-homework1/home.html
