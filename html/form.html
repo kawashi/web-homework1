@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Document</title>
+    <style type="text/css">
+        /*ジャンボトロンの画像設定*/
+        .jumbotron {
+            background:url("https://sozai-good.com/free-img/free-illust43475.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">ページ名</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="./index.html" class="glyphicon glyphicon-home">Home</a></li>
+                        <li><a href="./about.html" class="glyphicon glyphicon-info-sign">About</a></li>
+                        <li><a href="./form.html" class="glyphicon glyphicon-earphone">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                              <i class='glyphicon glyphicon-search'></i>
+                               </button>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>お問い合わせ</h1>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+            <form action="#" class="form-horizontal">
+                <div class="form-group">
+                    <label for="input-name" class="col-sm-2 control-label">お名前</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="input-name" placeholder="お名前" required="required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input-mail" class="col-sm-2 control-label">メールアドレス</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="input-mail" placeholder="メールアドレス" required="required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">ご用件</label>
+                    <div class="col-sm-10">
+                        <select class="form-control">
+                            <option value="">選択してください</option>
+                            <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+                            <option value="ご意見・ご感想">ご意見・ご感想</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">お問い合わせ内容</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" required="required"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">送信</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
